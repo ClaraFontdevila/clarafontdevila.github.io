@@ -120,3 +120,7 @@ h3 { font-size: 1.1rem; font-weight: 600; margin-top: 1.6rem; }
 
 /* position line stands out slightly from the university line */
 .role .role-main { color: var(--ink); font-weight: 600; }
+
+/* top menu: darker, same weight, blue on hover */
+.jump a { color: var(--ink); }
+.jump a:hover { color: var(--accent); text-decoration: none; }
