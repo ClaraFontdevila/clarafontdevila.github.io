@@ -1,0 +1,11 @@
+<div class="pub-list">
+<% for (const item of items) { const parts = String(item.authors).split('Fontdevila, C.'); %>
+<div class="pub" data-topics="<%= (item.topics || []).join(' ') %>">
+  <div class="pub-title"><% if (item.link) { %><a href="<%= item.link %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></div>
+  <div class="pub-authors"><% parts.forEach((p, i) => { %><%= p %><% if (i < parts.length - 1) { %><strong>Fontdevila, C.</strong><% } %><% }) %></div>
+  <div class="pub-venue"><%= item.year %> · <% if (item.pre) { %><%= item.pre %><% } %><% if (item.source) { %><em><%= item.source %></em><% } %><% if (item.post) { %><%= item.post %><% } %><% if (item.plain) { %><%= item.plain %><% } %><span class="pub-type"><%= item.kind %></span></div>
+  <% if (item.abstract) { %><button class="abs-toggle" type="button" aria-expanded="false">Abstract</button>
+  <div class="abs-text" hidden><%= item.abstract %></div><% } %>
+</div>
+<% } %>
+</div>

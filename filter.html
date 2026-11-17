@@ -1,0 +1,19 @@
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const chips = document.querySelectorAll('.chip');
+  const pubs = document.querySelectorAll('#listing-pubs .pub');
+  chips.forEach(c => {
+    const t = c.dataset.topic;
+    const n = t === 'all' ? pubs.length : [...pubs].filter(p => p.dataset.topics.split(' ').includes(t)).length;
+    c.insertAdjacentHTML('beforeend', ` <span class="n">${n}</span>`);
+    c.addEventListener('click', () => {
+      chips.forEach(x => x.classList.remove('active')); c.classList.add('active');
+      pubs.forEach(p => p.classList.toggle('hidden', t !== 'all' && !p.dataset.topics.split(' ').includes(t)));
+    });
+  });
+  document.querySelectorAll('.abs-toggle').forEach(b => b.addEventListener('click', () => {
+    const t = b.nextElementSibling, open = t.hidden;
+    t.hidden = !open; b.setAttribute('aria-expanded', open);
+  }));
+});
+</script>

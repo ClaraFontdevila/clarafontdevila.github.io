@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  site-url: "https://clarafontdevila.github.io"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+    smooth-scroll: true
+    include-after-body: filter.html
+    include-in-header: seo.html
