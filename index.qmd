@@ -27,11 +27,11 @@ listing:
 # Clara Fontdevila
 
 ::: {.role}
-Ramón y Cajal Researcher, Department of Sociology\
+[Ramón y Cajal Researcher, Department of Sociology]{.role-main}\
 Universitat Autònoma de Barcelona
 :::
 
-My research sits at the intersection of education policy and the sociology of education. It is concerned with the reform and restructuring of education systems from an equity perspective, examining how policy and institutional arrangements change, and with what consequences for whom. My current work focuses on school quasi-markets, which I approach from two angles: the rules that govern them and their role in producing or mitigating segregation, and how schools respond to diversity and to public-interest expectations in competitive environments. Much of my empirical work centres on publicly funded religious schools, with a focus on Spain and France.
+My research sits at the intersection of education policy and the sociology of education and is concerned with the reform and restructuring of education systems from an equity perspective, examining how policy and institutional arrangements change, and with what consequences for whom. My current work focuses on school quasi-markets, which I approach from two angles: the rules that govern them and their role in producing or mitigating segregation, and how schools respond to diversity and to public-interest expectations in competitive environments. Much of my empirical work centres on publicly funded religious schools, with a focus on Spain and France.
 
 Before rejoining the Universitat Autònoma de Barcelona as a Ramón y Cajal Researcher, I held postdoctoral positions at the University of Glasgow, most recently as a British Academy Postdoctoral Fellow.
 
@@ -62,7 +62,7 @@ Before rejoining the Universitat Autònoma de Barcelona as a Ramón y Cajal Rese
 ## Teaching {#teaching}
 
 ::: {.teaching}
-- **Actors in Education and Development** (MA Education Policies for Global Development – GLOBED, UAB · course leader, 2021–22, 2022–23, 2025–26) · [Syllabus](syllabus-actors-education-development.pdf) · [Course website](https://clarafontdevila.github.io/GLOBED-Actors-2025/)
+- **Actors in Education and Development** (MA Education Policies for Global Development – GLOBED, UAB · course leader, 2021–22, 2022–23, 2025–26) · [Syllabus](syllabus-actors-education-development.pdf)
 - **Education Policy** (BA Sociology, UAB · course leader, 2021–22, 2026–27)
 :::
 
