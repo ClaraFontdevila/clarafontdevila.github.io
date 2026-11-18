@@ -27,7 +27,8 @@ listing:
 # Clara Fontdevila
 
 ::: {.role}
-[Ramón y Cajal Researcher, Department of Sociology]{.role-main}\
+[Ramón y Cajal Researcher]{.role-main}\
+Department of Sociology · GEPS research group\
 Universitat Autònoma de Barcelona
 :::
 

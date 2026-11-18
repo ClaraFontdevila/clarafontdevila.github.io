@@ -1,10 +1,21 @@
-# One entry per publication. To add one, copy a block and edit it.
+# One entry per publication. They appear on the page in the order of this file
+# (newest first), so to put a paper at the top, move its block to the top.
 # kind: Article, Book, Chapter, Report
 # topics (filters): markets, religious, inequality, teachers, evaluation, io
 # source = journal or book title (shown in italics); pre/post = text before/after it
 # plain = venue shown without italics (books, reports)
 # link: optional (DOI or open-access URL)
 # abstract: optional, shown when 'Abstract' is clicked
+
+- title: "The micro-level design of public subsidies for private schools: A typological approach"
+  authors: "Zancajo, A., & Fontdevila, C."
+  year: 2026
+  source: "European Policy Analysis"
+  post: ", 12(4), e70059"
+  kind: "Article"
+  topics: [markets]
+  link: "https://www.researchgate.net/publication/414868907_The_Micro-Level_Design_of_Public_Subsidies_for_Private_Schools_A_Typological_Approach"
+  abstract: "Public subsidies for private schools (PSPSs) are a widespread policy instrument across Western European education systems. Despite considerable heterogeneity in their design, systematic classifications of their varying configurations remain lacking. This paper adopts a micro‐level approach to policy design to examine how PSPSs are calibrated. To this end, we develop a descriptive typology built around four context‐invariant constitutive dimensions and apply it to 11 Western European education systems. The exercise yields four distinct types of PSPSs, each capturing a particular relationship between public authorities and private educational providers. We argue that this design‐centric perspective offers analytical leverage to advance two persistent debates in the field: the impact of these policy instruments and the dynamics of policy change underpinning their evolution. More broadly, the typology illustrates the value of descriptive classification for bringing the analytical insights from the study of micro‐level policy design into empirical research."
 
 - title: "Publicly funded religious schools: for what purposes, and with what effects? Connecting normative and empirical debates"
   authors: "Fontdevila, C., & Vanderhoven, E."
@@ -25,16 +36,6 @@
   topics: [markets, inequality]
   link: "https://doi.org/10.1080/00220620.2025.2538455"
   abstract: "The redesign of educational quasi-market instruments has been gaining traction in response to the negative equity impacts of these policies, with various educational systems introducing adjustments in the design of school-choice schemes and subsidies for private schools. However, the capacity of such policy calibrations to address inequalities remains open to question. This paper develops an analytical framework to understand the effects of redesign initiatives and inform policy action. Drawing on a mechanism-based approach to policy design, we propose and apply a theoretically-driven framework situating the causality between policy problems, instrument design and outcomes at the centre of the analysis. Examining the recent wave of redesign reforms, the paper demonstrates that the equity-enhancing potential of calibrations can be assessed based on their capacity to disrupt the mechanisms connecting quasi-market instruments with educational inequalities. It also finds that some mechanisms prove particularly challenging to affect, inviting reflection on the limits of redesign."
-
-- title: "The micro-level design of public subsidies for private schools: A typological approach"
-  authors: "Zancajo, A., & Fontdevila, C."
-  year: 2026
-  source: "European Policy Analysis"
-  post: ", 12(4), e70059"
-  kind: "Article"
-  topics: [markets]
-  link: "https://doi.org/10.1002/epa2.70059"
-  abstract: "ABSTRACT Public subsidies for private schools (PSPSs) are a widespread policy instrument across Western European education systems. Despite considerable heterogeneity in their design, systematic classifications of their varying configurations remain lacking. This paper adopts a micro‐level approach to policy design to examine how PSPSs are calibrated. To this end, we develop a descriptive typology built around four context‐invariant constitutive dimensions and apply it to 11 Western European education systems. The exercise yields four distinct types of PSPSs, each capturing a particular relationship between public authorities and private educational providers. We argue that this design‐centric perspective offers analytical leverage to advance two persistent debates in the field: the impact of these policy instruments and the dynamics of policy change underpinning their evolution. More broadly, the typology illustrates the value of descriptive classification for bringing the analytical insights from the study of micro‐level policy design into empirical research."
 
 - title: "They are born, age, and survive: The construction of policy models by International Organizations. The case of the OECD’s school autonomy with accountability"
   authors: "Fontdevila, C., & Verger, A."
