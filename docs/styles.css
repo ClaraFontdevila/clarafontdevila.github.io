@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 :root { --ink:#2b2b2b; --muted:#666; --accent:#1a6e9e; --line:#e4e4e4; --bg:#fafafa; }
 
@@ -134,3 +134,7 @@ h3 { font-size: 1.1rem; font-weight: 600; margin-top: 1.6rem; }
 /* menu in blue accent */
 .jump a { color: var(--accent); }
 .jump a:hover { color: #124e70; }
+
+/* tabs regular weight; position line medium weight */
+.jump a { font-weight: 400; }
+.role .role-main { font-weight: 500; }
