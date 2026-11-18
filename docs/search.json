@@ -19,5 +19,12 @@
     "title": "Clara Fontdevila",
     "section": "Teaching",
     "text": "Teaching\n\n\nActors in Education and Development (MA Education Policies for Global Development – GLOBED, UAB · course leader, 2021–22, 2022–23, 2025–26) · Syllabus\nEducation Policy (BA Sociology, UAB · course leader, 2021–22, 2026–27)\n\n\n\nDepartment of Sociology, Edifici B, Campus UAB · 08193 Cerdanyola del Vallès, Barcelona"
+  },
+  {
+    "objectID": "NOTES.html",
+    "href": "NOTES.html",
+    "title": "How to update the website (private notes – not uploaded to GitHub)",
+    "section": "",
+    "text": "How to update the website (private notes – not uploaded to GitHub)\n\nBio, teaching, layout: edit index.qmd\nPublications: edit publications.yml. Entries appear in the order of the file (newest first); to put a paper at the top, move its block to the top. topics controls the filter buttons.\nLook and feel: styles.css\nPhoto / CV / syllabus: replace photo.jpg, cv.pdf, syllabus-actors-education-development.pdf\n\nThen: 1. Save, and click Render in RStudio (or run quarto render). 2. Quit RStudio (Cmd + Q) if someone else has edited the files meanwhile. 3. In the Terminal app: cd ~/personal-website git add . git commit -m “Short description of the change” git push 4. The site updates 1–2 minutes later (reload with Cmd + Shift + R)."
   }
 ]
