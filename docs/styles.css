@@ -4,7 +4,7 @@
 
 body {
   font-family: "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
-  font-size: 18.5px;            /* Rob's site uses ~15px */
+  font-size: 18.5px;
   line-height: 1.65;
   color: var(--ink);
   background: var(--bg);
@@ -90,7 +90,7 @@ body { font-size: 17px; line-height: 1.5; }
 .abs-text { font-size: .92rem; line-height: 1.55; }
 h2 { font-size: 1.35rem; }
 
-/* jump menu (IWPP-style) */
+/* top menu */
 .jump { display:flex; justify-content:flex-end; gap:1.4rem; margin-top:1.2rem; font-size:.95rem; }
 .jump a { color: var(--muted); }
 .jump a:hover { color: var(--accent); }
@@ -103,7 +103,7 @@ h3 { font-size: 1.1rem; font-weight: 600; margin-top: 1.6rem; }
 .pub-title { transition: color .15s; }
 .pub-title:hover, .pub-title:hover a, .pub-title a:hover { color: var(--accent) !important; text-decoration: none !important; }
 
-/* topic filters: smaller, softer corners (option D) */
+/* topic filters */
 .chip { border-radius: 6px; font-size: .85rem; padding: .2rem .65rem; }
 .chips { gap: .4rem; }
 
@@ -121,7 +121,7 @@ h3 { font-size: 1.1rem; font-weight: 600; margin-top: 1.6rem; }
 /* position line stands out slightly from the university line */
 .role .role-main { color: var(--ink); font-weight: 600; }
 
-/* v2: hierarchy by size */
+/* header hierarchy */
 .role .role-main { font-size: 1.12rem; font-weight: 400; color: var(--ink); }
 .role { font-size: .95rem; line-height: 1.5; }
 
